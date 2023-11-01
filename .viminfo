@@ -11,10 +11,15 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
+<<<<<<< HEAD
 :q!
 |2,0,1690798193,,"q!"
 :wq!
 |2,0,1690798177,,"wq!"
+=======
+:wq!
+|2,0,1698841985,,"wq!"
+>>>>>>> 920add6 (update)
 
 # Search String History (newest to oldest):
 
@@ -27,6 +32,7 @@
 # Registers:
 
 # File marks:
+<<<<<<< HEAD
 '0  17  18  ~/node_health.sh
 |4,48,17,18,1690798193,"~/node_health.sh"
 '1  17  18  ~/node_health.sh
@@ -148,3 +154,22 @@
 	+	20	21
 	+	23	13
 	+	14	135
+=======
+'0  40  0  ~/shell_scripting/shellscript_files/install_java.sh
+|4,48,40,0,1698841985,"~/shell_scripting/shellscript_files/install_java.sh"
+
+# Jumplist (newest first):
+-'  40  0  ~/shell_scripting/shellscript_files/install_java.sh
+|4,39,40,0,1698841985,"~/shell_scripting/shellscript_files/install_java.sh"
+-'  1  0  ~/shell_scripting/shellscript_files/install_java.sh
+|4,39,1,0,1698841937,"~/shell_scripting/shellscript_files/install_java.sh"
+
+# History of marks within files (newest to oldest):
+
+> ~/shell_scripting/shellscript_files/install_java.sh
+	*	1698841980	0
+	"	40	0
+	^	40	0
+	.	39	36
+	+	39	36
+>>>>>>> 920add6 (update)
