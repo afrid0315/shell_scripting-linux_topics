@@ -6,4 +6,4 @@
 4. **awk -F'[.]' '/^Version/{print $1"."$2"."$3"."$4+1}' test.sh** -->Version Increment(script version will be updated automatically in console but not in actual file or script).
 5. **sed -i 's/world/India/g' test.sh** --> replace a value in a file(replacing "world" to "India" from test.sh file)
 6. **top** - You can use this 'top' command to monitor running processes and their resource usage in real-time.
-7. **rpm -qa | grep <git (or) tree (or) installed app to find>
+7. **rpm -qa | grep <git (or) tree (or) installed app to find>**
