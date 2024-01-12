@@ -27,3 +27,5 @@ Step 6 - systemd activates the default. target unit by default when the system b
 Step 7 - The system runs a set of startup scripts and configure the environment.
 
 Step 8 - The users are presented with a login window. The system is now ready.
+
+
