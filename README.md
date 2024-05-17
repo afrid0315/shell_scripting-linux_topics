@@ -7,7 +7,19 @@
 5. **sed -i 's/world/India/g' test.sh** --> replace a value in a file(replacing "world" to "India" from test.sh file)
 6. **top** - You can use this 'top' command to monitor running processes and their resource usage in real-time.
 7. **rpm -qa | grep <git (or) tree (or) installed app to find>**
+8. **uname** -is a command that provides system information. It can display details such as the kernel name, network node hostname, kernel release, kernel version, machine hardware name, processor type, hardware platform, and the operating system.
 
+```
+uname -s  # Outputs the kernel name
+uname -n  # Outputs the network node hostname
+uname -r  # Outputs the kernel release
+uname -v  # Outputs the kernel version
+uname -m  # Outputs the machine hardware name
+uname -p  # Outputs the processor type
+uname -i  # Outputs the hardware platform
+uname -o  # Outputs the operating system
+uname -a  # Outputs all available system information
+```
 
 ## Find and Delete Old Files:
 ### find /path/to/files -type f -mtime +30 -exec rm {} \;
