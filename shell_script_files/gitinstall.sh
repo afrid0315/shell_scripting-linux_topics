@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "script to install git"
 echo "Installation started"
-if [ "$(uname)" == "Linux" ];
+if [ "$(uname)" == "Linux" ];  
 then
       echo "this is linux OS, installing GIT"
       apt install git -y
