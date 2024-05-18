@@ -8,7 +8,6 @@
 6. **top** - You can use this 'top' command to monitor running processes and their resource usage in real-time.
 7. **rpm -qa | grep <git (or) tree (or) installed app to find>**
 8. **uname** -is a command that provides system information. It can display details such as the kernel name, network node hostname, kernel release, kernel version, machine hardware name, processor type, hardware platform, and the operating system.
-
 ```
 uname -s  # Outputs the kernel name
 uname -n  # Outputs the network node hostname
@@ -20,6 +19,7 @@ uname -i  # Outputs the hardware platform
 uname -o  # Outputs the operating system
 uname -a  # Outputs all available system information
 ```
+9. $? - Exit Status, If we get $? = 0 then the previous command or task is successful. If $? = 1 to 128 then the previous command is failed.
 
 ## Find and Delete Old Files:
 ### find /path/to/files -type f -mtime +30 -exec rm {} \;
