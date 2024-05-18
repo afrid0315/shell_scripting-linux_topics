@@ -1,14 +1,21 @@
 #!/bin/bash
 echo "script to install git"
 echo "Installation started"
-if [ "$(uname)" == "Linux" ];  
+
+if [ "$(uname)" != "Linux" ];  
 then
-      echo "this is linux OS, installing GIT"
-      apt install git -y
-elif [ "$(uname)" == "Darwin" ];
-then
-      echo "this is mac OS, Installing GIT"
-      brew install git -y
+      echo "This script is only intended for Linux OS"
+      exit 1
 else
-      echo "not installing"
+      echo "This is linux OS"
 fi
+
+USERID=$(id -u)
+if [ USERID -ne 0 ];
+then
+      echo "You are not root user to execute this script"
+      exit 1
+fi
+
+apt install git -y
+
