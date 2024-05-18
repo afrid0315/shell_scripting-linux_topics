@@ -19,7 +19,7 @@ uname -i  # Outputs the hardware platform
 uname -o  # Outputs the operating system
 uname -a  # Outputs all available system information
 ```
-9. $? - Exit Status, If we get $? = 0 then the previous command or task is successful. If $? = 1 to 128 then the previous command is failed.
+9. **$?** - Exit Status, If we get **$? = 0** then the previous command or task is successful. If **$? = 1 to 128** then the previous command is failed.
 
 ## Find and Delete Old Files:
 ### find /path/to/files -type f -mtime +30 -exec rm {} \;
