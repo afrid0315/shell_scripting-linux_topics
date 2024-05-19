@@ -32,7 +32,7 @@ To redirect but it should delete existing logs in the file then '>>' symbol need
 #### STDERR --> failed  =2
 **Eg:** 
 - ls -ltr > log-file (Only success logs will be redirected to log-file, if logs is failed then that will not be saved here)
-- ls -ltrs 2> log-file (if we want failed logs. That will be redirected to log-file by using 2, if logs is success that cant be redirected here).
+- ls -ltrs 2> log-file (if we want failed logs. That will be redirected to log-file by using 2, if logs is success that can't be redirected here).
 - ls -ltr &> log-file (if we want both success and failed logs. That will be redirected to log-file by using &).
 
 ## Colors in Shell Scripting:
@@ -41,6 +41,8 @@ Red -31;
 Green -32;
 Yellow -33;
 Normal -0
+
+Eg: Take this as variable RED="\e[31m" as per required color and use.
     
 ## Find and Delete Old Files:
 ### find /path/to/files -type f -mtime +30 -exec rm {} \;
