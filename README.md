@@ -20,8 +20,9 @@ uname -o  # Outputs the operating system
 uname -a  # Outputs all available system information
 ```
 9. **$?** - Exit Status, If we get **$? = 0** then the previous command or task is successful. If **$? = 1 to 128** then the previous command is failed.
-10. id: Displays comprehensive user identity information, including UID, GID, and group memberships.
-11. id -u: Displays only the user ID (UID) of the current or specified user.
+10. **id**: Displays comprehensive user identity information, including UID, GID, and group memberships.
+11. **id -u**: Displays only the user ID (UID) of the current or specified user.
+12. **VALIDATE** we use for repetative script or loops. (same script updating multiple times we can use validate and reduce script size).
     
 ## Find and Delete Old Files:
 ### find /path/to/files -type f -mtime +30 -exec rm {} \;
