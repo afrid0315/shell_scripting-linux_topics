@@ -25,12 +25,14 @@ uname -a  # Outputs all available system information
 12. **VALIDATE** we use for repetative script or loops. (same script updating multiple times we can use validate and reduce script size).
 
 ## Output Redirections:
-To redirect we use '>' symbol
-#### STDOUT --> success =1
+To redirect we use '>' symbol. Again if we use, it will remove existing logs from log-files and updated new logs.
+
+To redirect but it should delete existing logs in the file then '>>' symbol need to use.
+#### STDOUT --> success =1 (default)
 #### STDERR --> failed  =2
 **Eg:** 
-- ls -ltr > log-file (success logs will be redirected to log-file)
-- ls -ltrs 2> log-file (if we want failed logs. That will be redirected to log-file by using 2).
+- ls -ltr > log-file (Only success logs will be redirected to log-file, if logs is failed then that will not be saved here)
+- ls -ltrs 2> log-file (if we want failed logs. That will be redirected to log-file by using 2, if logs is success that cant be redirected here).
 - ls -ltr &> log-file (if we want both success and failed logs. That will be redirected to log-file by using &).
 
 ## Colors in Shell Scripting:
