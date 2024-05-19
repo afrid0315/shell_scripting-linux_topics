@@ -10,7 +10,7 @@ else
       echo "This is linux OS"
 fi
 
-USERID=$(id -u)
+USERID=$(id -u)                             # for variable and value there should not be any gap or space. 
 if [ USERID -ne 0 ];
 then
       echo "You are not root user to execute this script"
