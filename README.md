@@ -24,6 +24,13 @@ uname -a  # Outputs all available system information
 11. **id -u**: Displays only the user ID (UID) of the current or specified user.
 12. **VALIDATE** we use for repetative script or loops. (same script updating multiple times we can use validate and reduce script size).
 
+## Access Arguments:
+**$0** - Script Name
+**$1** - First Parameter of the script
+**$#** - Total no. of parameters
+**$$** - Process id of the script
+**$@** - Complete list of arguments.
+
 ## Output Redirections:
 To redirect we use '>' symbol. Again if we use, it will remove existing logs from log-files and updated new logs.
 
