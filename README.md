@@ -25,11 +25,13 @@ uname -a  # Outputs all available system information
 12. **VALIDATE** we use for repetative script or loops. (same script updating multiple times we can use validate and reduce script size).
 
 ## Output Redirections:
-STDOUT --> success =1
-STDERR --> failed  =2
-Eg: ls -ltr > log-file (success logs will be redirected to log-file)
-    ls -ltrs 2> log-file (if we want failed logs. That will be redirected to log-file by using 2).
-    ls -ltr &> log-file (if we want both success and failed logs. That will be redirected to log-file by using &).
+To redirect we use '>' symbol
+#### STDOUT --> success =1
+#### STDERR --> failed  =2
+**Eg:** 
+- ls -ltr > log-file (success logs will be redirected to log-file)
+- ls -ltrs 2> log-file (if we want failed logs. That will be redirected to log-file by using 2).
+- ls -ltr &> log-file (if we want both success and failed logs. That will be redirected to log-file by using &).
     
 ## Find and Delete Old Files:
 ### find /path/to/files -type f -mtime +30 -exec rm {} \;
