@@ -32,6 +32,13 @@ To redirect we use '>' symbol
 - ls -ltr > log-file (success logs will be redirected to log-file)
 - ls -ltrs 2> log-file (if we want failed logs. That will be redirected to log-file by using 2).
 - ls -ltr &> log-file (if we want both success and failed logs. That will be redirected to log-file by using &).
+
+## Colors in Shell Scripting:
+Blue-30;
+Red -31;
+Green -32;
+Yellow -33;
+Normal -0
     
 ## Find and Delete Old Files:
 ### find /path/to/files -type f -mtime +30 -exec rm {} \;
