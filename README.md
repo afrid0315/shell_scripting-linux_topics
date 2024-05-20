@@ -1,7 +1,7 @@
 # shell_scripting
 
 1. **sed -n '3,5'p test.sh** --> This command used to print specific lines from a text file. sed- Stream Editor, -n -it allows you to control what gets printed explicitly, '3,5'- from line3 to line5 going to print, p-print, test.sh- shell script file
-2. **awk '{print}' test.sh** --> This command used to print whole file.
+2. **awk '{print}' test.sh** --> This command used to print whole file. 'awk' is a text processing tool.
 3. **awk '/Hello/{print}' test.sh** --> prints the full line with 'Hello' word.
 4. **awk -F'[.]' '/^Version/{print $1"."$2"."$3"."$4+1}' test.sh** -->Version Increment(script version will be updated automatically in console but not in actual file or script).
 5. **sed -i 's/world/India/g' test.sh** --> replace a value in a file(replacing "world" to "India" from test.sh file)
@@ -23,6 +23,7 @@ uname -a  # Outputs all available system information
 10. **id**: Displays comprehensive user identity information, including UID, GID, and group memberships.
 11. **id -u**: Displays only the user ID (UID) of the current or specified user.
 12. **VALIDATE** we use for repetative script or loops. (same script updating multiple times we can use validate and reduce script size).
+13. **cut -d ':' -f 1**: cut is used to split text by a delimiter and select specific fields. -d ':' sets the delimiter to a colon (:). -f 1 selects the second field after splitting the line by the colon.
 
 ## Access Arguments:
 **$0** - Script Name
