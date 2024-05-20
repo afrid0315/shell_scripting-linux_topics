@@ -50,7 +50,14 @@ Yellow -33;
 Normal -0
 
 Eg: Take this as variable RED="\e[31m" as per required color and use.
-    
+
+## Crontab Jobs:
+- MIN HOUR DOM MON DOW CMD 
+- Crontab -l - list of crontabs
+- Crontab -e - to use crontab.
+
+![Screenshot 2024-05-20 075143](https://github.com/afrid0315/shell_scripting-linux_topics/assets/126462435/c227267d-8bd1-4363-bf47-de1f115ccca4)
+
 ## Find and Delete Old Files:
 ### find /path/to/files -type f -mtime +30 -exec rm {} \;
 #### This command finds files older than 30 days in the specified path and deletes them.
