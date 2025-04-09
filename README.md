@@ -4,6 +4,7 @@
 # Commands
 
 yum list installed --> to check installed packages
+yum repolist ---> to check repository list
 
 # shell_scripting
 
