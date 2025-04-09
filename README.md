@@ -1,7 +1,9 @@
 
 ![image](https://github.com/user-attachments/assets/d7a5e3da-eab8-4b72-b225-c104648e22ed)
 
+# Commands
 
+yum list installed --> to check installed packages
 
 # shell_scripting
 
